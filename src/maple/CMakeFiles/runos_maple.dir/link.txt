@@ -1,0 +1,2 @@
+/usr/bin/ar qc librunos_maple.a  CMakeFiles/runos_maple.dir/TraceablePacketImpl.cc.o CMakeFiles/runos_maple.dir/TraceTree.cc.o CMakeFiles/runos_maple.dir/LoggableTracer.cc.o
+/usr/bin/ranlib librunos_maple.a

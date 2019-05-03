@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "BOOST_ENABLE_ASSERT_HANDLER;QT_CORE_LIB;QT_NO_DEBUG ~~~ /userdata/prefix/include;/userdata/src;/userdata/third_party/webserver;/usr/include/x86_64-linux-gnu/qt5;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64;/usr/include ~~~  ~~~ FALSE ~~~ ")

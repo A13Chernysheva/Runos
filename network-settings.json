@@ -1,0 +1,61 @@
+{
+
+"default": {
+    "services": [
+        "simple-learning-switch",
+        "rest-listener",
+        "host-manager",
+        "webui",
+        "static-flow-pusher",
+        "switch-stats",
+        "stp",
+        "arp-handler",
+        "flow-manager",
+        "rest-multipart",
+        "rest-flowmod",
+	"mirror",
+	"ipblock"
+    ],
+
+    "flow-manager" : {
+        "interval" : 5
+    },
+
+    "rest-listener" : {
+         "port" : 8000,
+         "web-dir" : "./build/web"
+    },
+
+    "controller": {
+         "nthreads": 4,
+         "cbench": false,
+         "pipeline": [
+             "link-discovery",
+	     "arp-handler",
+	     "host-manager",
+	     "ipblock",
+	     "mirror",
+	     "forwarding"
+         ]
+    },
+
+    "loader": {
+        "threads": 2
+    },
+
+    "link-discovery": {
+        "poll-interval": 10,
+        "pin-to-thread": 1
+    },
+
+    "switch-manager": {
+        "pin-to-thread": 1
+    },
+
+    "switch-stats": {
+	"poll-interval": 1,
+	"pin-to-thread": 1
+    }
+}
+
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc librunos_types.a  CMakeFiles/runos_types.dir/ethaddr.cc.o CMakeFiles/runos_types.dir/exception.cc.o CMakeFiles/runos_types.dir/IPv6Addr.cc.o CMakeFiles/runos_types.dir/IPv4Addr.cc.o
+/usr/bin/ranlib librunos_types.a
